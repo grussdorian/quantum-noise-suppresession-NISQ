@@ -5,3 +5,15 @@ Explorations implementing _"Suppressing decoherence in noisy intermediate-scale 
 Suppressing single qubit noise with the help of padding quantum circuits with unitaries U and V, over a variety of such possible unitaries.
 
 ![UV pading](./icons/img1.png)
+
+![thrmal relaxation noise results with different U and V angles](./icons/img2.png)
+
+![thrmal relaxation noise results with fixed delay](./icons/img3.png)
+
+![thrmal relaxation noise results with fixed T1=T2](./icons/img4.png)
+
+![depolarization results with fixed delay](./icons/img5.png)
+
+![depolarization results with fixed error probability p](./icons/img6.png)
+
+![depolarization results with different U and V angles](./icons/img7.png)
