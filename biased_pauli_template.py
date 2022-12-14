@@ -152,10 +152,13 @@ def pad_circuits_with_gates(n_qubits, theta, delay):
     return circuits
 
 
-def depolarize(noise_prob, delay_time):
+def biased_pauli(p_err, b_err, delay_time):
     noise_model = NoiseModel()
-    error_1q = depolarizing_error(noise_prob, 1)  # 1 qubit depolarizing error
-    noise_model.add_all_qubit_quantum_error(error_1q, ['delay'])
+
+    # p_err = 0.02
+    # b_err = 0.0010
+    error_1q = pauli_error([('I',1-p_err-b_err),('X',p_err/3),('Y',p_err/3),('Z',p_err/3+b_err)]) # 1 qubit Biased Pauli error
+    noise_model.add_all_qubit_quantum_error(error_1q, ['delay']) 
 
     backend = AerSimulator(noise_model=noise_model)
 
@@ -181,6 +184,7 @@ def depolarize(noise_prob, delay_time):
     min_err_info = None
     min_ckt = None
 
+
     for ckt in tqdm(range(len(ckts))):
         qc = ckts[ckt][0]
         counts = backend.run(qc, shots=10000).result().get_counts()
@@ -191,7 +195,7 @@ def depolarize(noise_prob, delay_time):
             min_ckt = qc
             min_err_info = err
     return min_ckt, min_err_info, min_error
-
+    
         # error.append(err)
     # error.sort(key=getError)
     # opt_idx = error[0]['index']
