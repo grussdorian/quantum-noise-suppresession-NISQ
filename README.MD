@@ -42,7 +42,21 @@ Depolarization noise results with fixed error probability p
 
 ![depolarization results with different U and V angles](./icons/img7.png)
 
-Depolarization noise results with different U and V angles
+Biased Pauli noise results with different U and V angles
+
+![Biased Pauli results with different U and V angles](./icons/img8.png)
+
+Biased Pauli results fixed delay in nano-seconds and $p$
+
+![Biased Pauli results fixed delay in nano-seconds and p](./icons/img9.png)
+
+![Biased pauli results with fied delay and bias](./icons/img10.png)
+
+Biased pauli results with fied delay and bias $b$
+
+![Biased Pauli results with different delay](./icons/img11.png)
+
+Biased pauli results with different delay and fixed $p$
 
 We have concluded the following:
 
