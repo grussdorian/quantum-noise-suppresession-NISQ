@@ -30,3 +30,11 @@ And
 And
 
 ![UV pading](./images/6-qubit-theta.png)
+
+### For 7 qubits
+
+![UV pading](./images/7-qubit.png)
+
+And
+
+![UV pading](./images/7-qubit-theta.png)
