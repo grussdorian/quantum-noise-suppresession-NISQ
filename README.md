@@ -30,7 +30,3 @@ And
 And
 
 ![UV pading](./images/6-qubit-theta.png)
-
-```console
-foo@bar$ 
-```
