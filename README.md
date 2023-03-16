@@ -48,3 +48,13 @@ And
 
 
 ![UV pading](./images/10-qubit-theta.png)
+
+
+## For 5 qubits with different $\theta$ parameters
+
+Here we have 5 different parameters for $U$, they are $\theta_{1},\theta_{2},\theta_{3},\theta_{4}$ and $\theta_{5}$.
+
+And the circuit $V$ is just $U^{†}$. 
+
+![UV pading](./images/5-qubit-different-theta.png)
+
