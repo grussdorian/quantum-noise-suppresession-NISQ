@@ -39,3 +39,12 @@ And
 
 
 ![UV pading](./images/7-qubit-theta.png)
+
+### For 10 qubits
+
+![UV pading](./images/10-qubit.png)
+
+And
+
+
+![UV pading](./images/10-qubit-theta.png)
