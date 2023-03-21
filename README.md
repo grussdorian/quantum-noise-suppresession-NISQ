@@ -56,5 +56,9 @@ Here we have 5 different parameters for $U$, they are $\theta_{1},\theta_{2},\th
 
 And the circuit $V$ is just $U^{†}$. 
 
+![UV pading](./images/circuit-type-different-theta.png)
+
+## Delay vs fidelity
+
 ![UV pading](./images/5-qubit-different-theta.png)
 
