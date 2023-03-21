@@ -62,3 +62,15 @@ And the circuit $V$ is just $U^{†}$.
 
 ![UV pading](./images/5-qubit-different-theta.png)
 
+
+## We now try with different theta parameters for every gate, keeping the unitary padding the same
+
+Circuit looks like this
+
+![UV pading](./images/circuit-type-different-theta-U-V.png)
+
+And delay vs fidelity, with different $\theta_i$ for $i\in[0,9]$. Note, the same unitary is used to pad the circuit but $\theta$ is different for every qubit.
+
+![UV pading](./images/5-qubit-different-theta-U-V.png)
+
+As we can see the results are not impressive at all, infact they are worse than the non padded circuit.
